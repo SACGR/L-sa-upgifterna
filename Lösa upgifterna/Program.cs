@@ -36,8 +36,7 @@ while (true)
     {
         for (int i = 0; i < AntalFråger; i++)
         {
-            Console.WriteLine("Fråga " + (i+1));
-            Console.WriteLine(frågesport[0,i,0]);
+            Console.WriteLine("Fråga " + (i+1)+"\n"+ frågesport[0, i, 0]);
             frågesport[2, i, 0] = Console.ReadLine();
         }
         for (int i = 0; i < AntalFråger; i++)
